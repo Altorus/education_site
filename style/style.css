@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px 0px;
+font-family: 'Comfortaa';
+
+}
+
+.container{
+    margin: 0px auto;
+    width: 80vw;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.container.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+   
+    
+}
+
+header{
+    background-color: #EBF1FB;
+}
+
+nav ul li{
+    list-style-type: none;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin: 0px 18px;
+    color: #000;
+}
+
+.btn{
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #182C49;
+    border-radius: 24px;
+}
+
+.first-section{
+    position: relative;
+    padding: 115px 0;
+    background-image: url("../img/bg1.png");
+}
+
+.first-section .container h1{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 671px;
+    margin-bottom: 36px;
+}
+
+.first-section .container p{
+    color: #fff;
+    font-size: 24px;
+}
+
+.second-section{
+    position: relative;
+    padding: 115px 0px;
+    background-image: url("../img/bg2.png");
+}
+.second-section .container h1{
+    margin-bottom: 36px;
+}
+
+.second-section .container p{
+   margin-bottom: 18px;
+}
+
+.second-section .container li{
+   margin-bottom: 18px;
+}
+
+footer {
+    background-color: #A8E2ED;
+}
+
+.blok{
+    padding: 18px 20px;
+}
+
+.blok h1{
+    margin: 0px;
+    margin-left: 18px;
+    margin-bottom: 18px;
+}
+
+.blok p{
+    margin-left: 25px;
+}
+
+
+.name{
+    margin-top: 80px;
+    margin-bottom: 83px;
+}
+
+.blok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #EBF1FB;
+    border-radius: 22px;
+}
+
+.name-news {
+    margin-top: 80px;
+    margin-bottom: 83px;
+    text-transform: uppercase;
+}
+
+.blok-news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1{
+    margin-bottom: 23px;
+    margin-top: 43px;
+}
+
+.content{
+    margin-bottom: 109px;
+    margin-left: 26px;
+    margin-top: 23px;
+}
+
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.photo img{
+    box-shadow: 20px 30px 0px #FBF22E;
+    border-radius: 12px;
+}
+
+.container h1{
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+.photo img{
+    margin-bottom: 48px;
+}
+
+.photo p{
+    margin: 18px 0px;
+}
