@@ -1,0 +1,96 @@
+@media screen and (max-width: 810px) {
+    p, span {
+        font-size: 12px;
+        line-height: 1.25rem;
+    }
+
+    .container .content h1{
+        font-size: 24px;
+        line-height: normal;
+
+    }
+
+    .container .content{
+        margin: 0;
+    }
+
+    .logo {
+        width: 75px;
+        height: auto;
+    }
+
+    h2, h3 {
+        line-height: 3.25rem;
+    }
+
+    .blok {
+        flex-direction: column;
+    }
+
+    .blok img {
+        width: 99%;
+    }
+
+    .blok p {
+        margin: 0;
+    }
+
+    .container.header {
+        display: none;
+    }
+
+    .container.mobile-header {
+        min-height: 100%;
+    }
+
+    .hamburger {
+        display: inline-block;
+    }
+
+    .container.footer,
+    .container.footer nav ul {
+        flex-direction: column;
+    }
+
+    .container.footer img,
+    .container.footer nav ul li {
+        margin-bottom: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .first-section .container h1 {
+        width: 500px;
+    }
+
+    .teatchers-section,
+    #orderForm .inputs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .photo img {
+        width: 161px;
+        height: 226px;
+    }
+
+    .blok-news{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .first-section .container h1 {
+        width: 350px;
+        font-size: 28px;
+        line-height: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .first-section .container h1 {
+        width: 250px;
+        font-size: 24px;
+        line-height: 1.75rem;
+    }
+}
+

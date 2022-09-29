@@ -6,12 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ступеньки развития</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="dist/hamburgers.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Comfortaa&display=swap" rel="stylesheet">
 </head>
 <body>
+<!--header-->
 <header>
+    <div class="container mobile-header">
+        <button class="hamburger hamburger--spin" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+        <div class="mobile-menu">
+            <nav>
+                <ul>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="teatcher.html">Наши педагоги</a></li>
+                    <li><a href="all-news.html">Новости</a></li>
+                    <li><a class="btn" href="#">Записаться</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
     <div class="container header">
         <img src="img/logo.png" alt="">
         <nav>
@@ -37,18 +57,18 @@
     </section>
     <section class="second-section" id="about">
         <div class="container">
-            <h1>
+            <h2>
                 Почему именно мы?
-            </h1>
+            </h2>
             <p>
                 Ступеньки развития - детский центр по подготовке дошкольников к школе!
             </p>
             <p>
                 Мы существуем более 37 лет и подготовили к школе более 3000 дошкольников!
             </p>
-            <h1>
+            <h2>
                 Наша образовательная программа:
-            </h1>
+            </h2>
             <ul>
                 <li>Математика</li>
                 <li>Чтение, письмо</li>
@@ -56,9 +76,9 @@
                 <li>Компьютерная грамотность</li>
                 <li>Английский язык</li>
             </ul>
-            <h1>
+            <h2>
                 У нас самые умеренные цены на образовательные услуги, так же существуют скидки:
-            </h1>
+            </h2>
             <p>
                 20% для детей из многодетной семьи
             </p>
@@ -69,16 +89,32 @@
     </section>
     <section>
         <div class="container">
-            <h1 class="name">
+            <h2>Для записи на занятия оставьте заявку</h2>
+            <div class="inputs-container">
+                <form action="#" method="post" id="orderForm">
+                    <div class="inputs">
+                        <input type="text" name="parent" id="parent" class="input-custom" placeholder="ФИО родителя">
+                        <input type="text" name="children" id="children" class="input-custom" placeholder="ФИО ребенка">
+                        <input type="text" name="age" id="age" class="input-custom" placeholder="Сколько лет ребёнку?">
+                        <input type="text" name="phone" id="phone" class="input-custom" placeholder="Номер телефона">
+                    </div>
+                    <button class="btn">Записаться</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2 class="name">
                 Последние Новости
-            </h1>
+            </h2>
             <div class="all-news">
                 <div class="blok">
                     <img src="img/Rectangle 2.png" alt="">
                     <div class="content">
-                        <h1>
+                        <h2>
                             Название
-                        </h1>
+                        </h2>
                         <p>
                             А ещё ключевые особенности структуры проекта формируют глобальную экономическую сеть и при
                             этом — объективно рассмотрены соответствующими инстанциями. Современные технологии достигли
@@ -88,12 +124,12 @@
                 </div>
             </div>
         </div>
-        </s>
+    </section>
 </main>
 
 <footer>
-    <div class="container header">
-        <img "img/logo.png" alt="">
+    <div class="container footer">
+        <img src="img/logo.png" alt="">
         <nav>
             <ul>
 
@@ -105,6 +141,7 @@
         </nav>
     </div>
 </footer>
-
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="script/script.js"></script>
 </body>
 </html>
