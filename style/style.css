@@ -5,9 +5,13 @@
 
 }
 
-p {
+p,span{
     line-height: 1.5rem;
 }
+h1,h2,h3{
+    line-height: 4.25rem;
+}
+
 
 .container {
     margin: 0px auto;
@@ -220,9 +224,7 @@ footer {
     margin: 18px 0px;
 }
 
-span {
-    line-height: 1.5rem;
-}
+
 
 span.desc {
     width: 251px;
@@ -231,3 +233,4 @@ span.desc {
 .teatcher-container{
     margin-top: 80px;
 }
+
